@@ -55,3 +55,19 @@ ul {
 .delete {
     margin-left: 2.5rem;
 }
+p{
+    color: #fff;
+}
+
+@media (max-width: 500px) {
+    .task-adder{
+        display: flex;
+        flex-direction: column;
+    }
+    input{
+        margin: 1rem 0;
+    }
+    .btn-success{
+        margin-bottom: 1rem;
+    }
+  }
