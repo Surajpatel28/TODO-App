@@ -42,11 +42,3 @@ ul.addEventListener('click', function(event){
         listItem.remove();
     }
 })
-
-// let dlt = document.querySelectorAll('.delete');
-// for( dltbtn of dlt ){
-//     dltbtn.addEventListener('click', function(){
-//         let par = dltbtn.parentElement;
-//         par.remove();
-//     })
-// }
